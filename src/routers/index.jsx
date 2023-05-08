@@ -1,6 +1,8 @@
+import React, { useLayoutEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './layout/Home'
-const App = () => {
+import Home from '../layout/Home'
+
+const Routers = () => {
     return (
         <Router>
             <Routes>
@@ -10,4 +12,4 @@ const App = () => {
     )
 }
 
-export default App
+export default Routers
